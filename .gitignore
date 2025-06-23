@@ -1,0 +1,62 @@
+# === Logs ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Node ===
+node_modules/
+
+# === Build Output ===
+dist/
+dist-ssr/
+build/
+.vite/
+.temp/
+
+# === Env Files ===
+*.local
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Editor directories and files ===
+
+## VS Code
+.vscode/*
+!.vscode/extensions.json
+
+## WebStorm / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Microsoft Files ===
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# === Tests ===
+coverage/
+*.lcov
+
+# === Cache and Misc ===
+.cache/
+.eslintcache
+stylelintcache
+turbo/
+.history/
