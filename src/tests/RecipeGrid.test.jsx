@@ -7,14 +7,14 @@ const mockRecipes = [{
     name: 'A Pizza',
     image: 'image-a.jpg',
     cookTimeMinutes: 30,
-    cusine: 'Italian',
+    cuisine: 'Italian',
     tags: ['Dinner', 'Cheese']
 }, {
     id: 2,
     name: 'B Pasta',
     image: 'image-b.jpg',
     cookTimeMinutes: 10,
-    cusine: 'Italian',
+    cuisine: 'Italian',
     tags: ['Lunch']
 }
 ]
