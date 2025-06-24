@@ -7,12 +7,12 @@ const mockRecipe = {
     name: 'Test Pizza',
     image: 'https://example.com/image.jpg',
     cookTimeMinutes: 25,
-    cusine: 'Italian',
+    cuisine: 'Italian',
     tags: ['Pizza', 'Cheesy']
 }
 
 describe('RecipeCard', () => {
-    test('renders recipe name and cusine', () => {
+    test('renders recipe name and cuisine', () => {
         render(<RecipeCard recipe={mockRecipe} />);
         expect(screen.getByText('Test Pizza')).toBeInTheDocument();
         expect(screen.getByText(/Italian/)).toBeInTheDocument();
